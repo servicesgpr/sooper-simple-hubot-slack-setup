@@ -9,7 +9,7 @@
   ],
   "description": "I suck writing these.",
   "dependencies": {
-	"coffee-script": ">= 1.12.x",
+    "coffee-script": ">= 1.12.x",
     "hubot": ">= 2.19.x",
     "hubot-redis-brain": ">= 0.0.3",
     "hubot-slack": ">= 4.3.x",
