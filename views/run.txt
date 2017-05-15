@@ -1,0 +1,10 @@
+Look ma !! I am running like {{type}} !!
+
+{{#each arr}}
+arr item: {{this}}
+{{else}}
+nothing was in your var
+{{/each}}
+
+layered data
+{{objin.another}}
