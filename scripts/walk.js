@@ -16,9 +16,6 @@ class WalkCommand extends HubotCommand {
 		var self = this;
 		return new Promise(function(resolve, reject) {
 			resolve({});
-		})
-		.catch(function(error) {
-			resolve({error: true});
 		});
 	}
 	
