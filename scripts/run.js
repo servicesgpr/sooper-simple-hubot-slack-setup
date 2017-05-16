@@ -17,7 +17,7 @@ class RunCommand extends HubotCommand {
 	model() {
 		var self = this;
 		return new Promise(function(resolve, reject) {
-			var run = new Run(self.robot, self.message);
+			var run = new Run(self._type());
 			run.get()
 			.then(function(data) {
 				resolve(data);
@@ -28,4 +28,11 @@ class RunCommand extends HubotCommand {
 	view() {
 		return "run.txt";
 	}
+
+    _type() {
+    	var self = this;
+    	var type = self.message.match[1];
+    	logger.log("info", `i am running like: ${type}`);
+    	return type;
+    }
 }
