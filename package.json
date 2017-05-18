@@ -13,6 +13,7 @@
     "hubot": ">= 2.19.x",
     "hubot-redis-brain": ">= 0.0.3",
     "hubot-slack": ">= 4.3.x",
+    "hubot-help": ">= 0.2.x",
     "winston": ">= 2.3.x",
     "promise": ">= 7.1.x",
     "moment": ">= 2.18.x",

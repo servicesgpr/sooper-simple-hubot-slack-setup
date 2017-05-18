@@ -1,5 +1,5 @@
 // Commands:
-//   hubot hello - replies with "world"!
+//   hubot walk - replies with something about walking
 
 const HubotCommand = require("HubotCommand.js");
 const logger = require("winston");
@@ -18,7 +18,7 @@ class WalkCommand extends HubotCommand {
 			resolve({});
 		});
 	}
-	
+
 	view() {
 		return "walk.txt";
 	}

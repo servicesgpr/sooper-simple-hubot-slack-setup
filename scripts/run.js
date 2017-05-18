@@ -1,5 +1,5 @@
 // Commands:
-//   hubot hello - replies with "world"!
+//   hubot run <input> - replies with something about running and your input
 
 const Promise = require("promise");
 const HubotCommand = require("HubotCommand.js");
@@ -24,7 +24,7 @@ class RunCommand extends HubotCommand {
 			});
 		});
 	}
-	
+
 	view() {
 		return "run.txt";
 	}
